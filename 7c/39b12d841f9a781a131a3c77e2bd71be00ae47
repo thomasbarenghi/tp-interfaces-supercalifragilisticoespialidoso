@@ -1,0 +1,21 @@
+server/.npmrc
+  s_d241bd94ef41a8::t_a2e17f6ce5243e 1
+.gitignore
+  s_d241bd94ef41a8::t_ad35c4f086400b 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "7c39b12d841f9a781a131a3c77e2bd71be00ae47",
+  "prompts": {},
+  "sessions": {
+    "s_d241bd94ef41a8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74105225-c7ba-483c-9f0a-a2bf70758fd6",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
