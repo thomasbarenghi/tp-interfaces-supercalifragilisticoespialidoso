@@ -1,0 +1,19 @@
+server/package.json
+  s_d241bd94ef41a8::t_05b6065b00f786 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "106813ca887a1dabe6ab984b3108f75c869418d6",
+  "prompts": {},
+  "sessions": {
+    "s_d241bd94ef41a8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74105225-c7ba-483c-9f0a-a2bf70758fd6",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
