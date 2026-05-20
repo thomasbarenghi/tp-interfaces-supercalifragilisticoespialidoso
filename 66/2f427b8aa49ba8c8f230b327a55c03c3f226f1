@@ -1,0 +1,14 @@
+README.md
+  h_a5ee0ed7d5d05d 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "662f427b8aa49ba8c8f230b327a55c03c3f226f1",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
