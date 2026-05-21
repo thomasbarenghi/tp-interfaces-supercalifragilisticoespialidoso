@@ -1,0 +1,41 @@
+client/vite.config.ts
+  s_ec2be86018a77d::t_c9a7b2e12a4de3 3
+  s_ec2be86018a77d::t_30ddeae4a0bc1a 8
+client/eslint.config.js
+  s_ec2be86018a77d::t_d25f9fc847df53 7,19-21,25-39
+client/package.json
+  s_ec2be86018a77d::t_63afbdd8df9e8b 10
+  s_ec2be86018a77d::t_0df7fa07f8b7f2 11-22
+  s_ec2be86018a77d::t_80071a0add32ea 25-27,29-30,42,46-48
+client/src/App.tsx
+  s_ec2be86018a77d::t_d79618d1b39d2f 1,8-12,24-32
+  s_ec2be86018a77d::t_2cb4736cbd5e62 4-5,7,21
+.husky/pre-commit
+  s_ec2be86018a77d::t_4bc15364bcc431 1
+client/.prettierrc
+  s_ec2be86018a77d::t_4353da30a7d323 5
+  s_ec2be86018a77d::t_7a3a8cb257b0ed 1-4,6-8
+client/.husky/pre-commit
+  s_ec2be86018a77d::t_63afbdd8df9e8b 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "994c8f1e06cdfe0b6d6d461d68e26b29ccaa1088",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_ec2be86018a77d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6ed92dd0-da6a-4846-b891-57d30236747e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
