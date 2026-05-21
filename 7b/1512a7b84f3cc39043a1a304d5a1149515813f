@@ -1,0 +1,35 @@
+client/src/App.tsx
+  s_ec2be86018a77d::t_bd74afa2b320f9 34,36-39
+  s_ec2be86018a77d::t_43e5ac8524fee6 44,59,82,114,124,148
+  s_ec2be86018a77d::t_6c79793908f563 178-179
+  s_ec2be86018a77d::t_9744a369f44b7d 42
+  s_ec2be86018a77d::t_e1cce741a43ef2 17
+  s_ec2be86018a77d::t_24a300b7e0c8bc 35
+  s_ec2be86018a77d::t_b1664080da85ca 33
+  s_ec2be86018a77d::t_b27442fd0eef87 28
+client/README.md
+  s_ec2be86018a77d::t_c6711cee30354d 1,3,5,7-13,15,17-18,20,22,24-26,28,30,32-37,39,41,43-48,50-61,63-75,78-92
+client/src/hooks/useDarkMode.ts
+  s_ec2be86018a77d::t_3ea485788caf12 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "7b1512a7b84f3cc39043a1a304d5a1149515813f",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_ec2be86018a77d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6ed92dd0-da6a-4846-b891-57d30236747e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
