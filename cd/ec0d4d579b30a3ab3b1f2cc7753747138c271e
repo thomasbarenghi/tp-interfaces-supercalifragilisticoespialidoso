@@ -1,0 +1,30 @@
+client/vite.config.ts
+  s_ec2be86018a77d::t_8c81c83019a869 2,7-11
+client/package.json
+  s_ec2be86018a77d::t_514cf6cc0ea391 23
+  s_ec2be86018a77d::t_2c0f1e45702e66 31
+  s_ec2be86018a77d::t_ec6306492bd363 20
+client/.gitignore
+  h_a5ee0ed7d5d05d 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "cdec0d4d579b30a3ab3b1f2cc7753747138c271e",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_ec2be86018a77d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6ed92dd0-da6a-4846-b891-57d30236747e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
