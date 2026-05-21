@@ -1,0 +1,24 @@
+client/package.json
+  s_ec2be86018a77d::t_c43501d6b96b93 31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "d170aa46613010f22e4782adb6b41125e8741a29",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_ec2be86018a77d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6ed92dd0-da6a-4846-b891-57d30236747e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
