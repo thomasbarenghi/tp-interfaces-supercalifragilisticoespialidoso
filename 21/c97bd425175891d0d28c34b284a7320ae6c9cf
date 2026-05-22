@@ -1,0 +1,149 @@
+server/server.js
+  s_12b23801cdf4f9::t_145d52cbe5e553 16-19,22-23
+client/src/router.tsx
+  s_12b23801cdf4f9::t_228cc61d3a94dd 7,21
+  s_12b23801cdf4f9::t_d4819042845f70 6,20
+  s_12b23801cdf4f9::t_954c914976e716 3,19
+  s_1c6ee289313ca0::t_340093758360da 8,18
+server/data/cart.json
+  s_12b23801cdf4f9::t_934343783be4ab 1-33
+client/src/mocks/cart.ts
+  s_12b23801cdf4f9::t_8c04c85570c437 14,23,32
+  s_12b23801cdf4f9::t_53f75ef52efda3 1-4,6-13,15-22,24-31,33-35
+  s_12b23801cdf4f9::t_e2d33ac028af40 5
+client/src/mocks/order.ts
+  s_12b23801cdf4f9::t_b8ed37218ddd73 1-118
+client/src/pages/ProductDetail.tsx
+  s_12b23801cdf4f9::t_caf8d0f7d0c9e2 79
+  s_12b23801cdf4f9::t_92dbdeb93309a2 22,57,59,78,80,84
+  s_1c6ee289313ca0::t_976850d3b28fd4 1-2,5-7,9-19,28,30-33,35-37,43-47,61-62,65,67,70-72,74-77,82,85-88,90-94
+  s_12b23801cdf4f9::t_6d204f3c79c4c0 20-21,29,48,50-52
+  s_1c6ee289313ca0::t_de9af4984bf67c 23-25,27
+  s_12b23801cdf4f9::t_eb94b44771e8b6 26
+  s_1c6ee289313ca0::t_2e74d36208d04d 4
+  s_12b23801cdf4f9::t_e086c80e6b35fc 66
+  s_12b23801cdf4f9::t_295d671de4a989 38-42
+  s_12b23801cdf4f9::t_3f224652e64300 8
+  s_12b23801cdf4f9::t_bc0c80f9965e77 69,73
+  s_1c6ee289313ca0::t_a7ca249500d6f0 89
+  s_12b23801cdf4f9::t_ad2bd5d9f7c05d 3,34,49,53-56,63-64,68,81
+  s_12b23801cdf4f9::t_96064fac58ec74 58,60,83
+client/src/utils/format.ts
+  s_12b23801cdf4f9::t_de59f79dae1d07 1-17,19-40
+client/src/pages/Checkout.tsx
+  s_12b23801cdf4f9::t_0853af97cc4b32 3
+  s_12b23801cdf4f9::t_0d38aa440bebe9 109
+  s_12b23801cdf4f9::t_9bde5a7ba87cfb 17,44,59,66,251-253
+  s_12b23801cdf4f9::t_3d7bada30cb229 123,125,129-131,133-143,149-150,156,158-161
+  s_12b23801cdf4f9::t_e775ae541a125e 155
+  s_12b23801cdf4f9::t_37087a1e25fef2 164,166
+  s_12b23801cdf4f9::t_e7249cf41aa43f 258-265
+  s_12b23801cdf4f9::t_ca9524a2c5ddcb 4-5
+  s_12b23801cdf4f9::t_0940d6dfeb97fb 270
+  s_12b23801cdf4f9::t_033d56719d0f59 52-53,153,157,162-163,165,167-183,185-195,197-206,208-222,232-236,238-247,249-250,254,256-257,266-269,273-275,292-295
+  s_12b23801cdf4f9::t_13525b36786835 112
+  s_12b23801cdf4f9::t_47fee490ed9fa3 2
+  s_12b23801cdf4f9::t_a15b51feb4ce9e 9
+  s_12b23801cdf4f9::t_c7562f5c4480cc 31-39
+  s_12b23801cdf4f9::t_b9d0fb8151ad50 223-231
+  s_12b23801cdf4f9::t_cda18ee4a8c16a 1,6-8,10-16,18-24,26,29-30,40-43,45-51,54-58,60-65,67-73,144-148,151-152,154,184,196,207,237,248,255,298-307
+  s_12b23801cdf4f9::t_97bcdc4b2f78cb 124,126-128,132
+  s_12b23801cdf4f9::t_f4f3c750cf1b24 271-272
+  s_12b23801cdf4f9::t_e4536aa20274fe 74-90,92-101,105-108,110-111,116-122
+  s_12b23801cdf4f9::t_56ee1da391ba33 276-290
+  s_12b23801cdf4f9::t_10ffeba34e48ff 296-297
+client/src/components/Header/index.tsx
+  s_12b23801cdf4f9::t_0766fed96efc4a 16
+  s_12b23801cdf4f9::t_c39c8e4d5b3ec3 6-12,14
+  s_12b23801cdf4f9::t_45f103865ab3c3 21-22
+client/src/types/order.ts
+  s_12b23801cdf4f9::t_3dd0882c34f800 1-44
+client/src/components/commerce/PaymentSummary.tsx
+  s_12b23801cdf4f9::t_ff1688017c30d0 27
+  s_12b23801cdf4f9::t_d8ae0b500af267 3-25,28-32
+  s_12b23801cdf4f9::t_fe8a2296a14bc1 26
+  s_12b23801cdf4f9::t_e7baa3ca520eb0 1-2
+client/src/components/commerce/ProductItemRow.tsx
+  s_12b23801cdf4f9::t_1fca58eb67444c 3-22,25,27-31
+  s_12b23801cdf4f9::t_9e4764aaaaf345 1-2
+  s_12b23801cdf4f9::t_98b828708204bb 23
+  s_12b23801cdf4f9::t_54a360c15d0d94 24,26
+client/src/types/cart.ts
+  s_12b23801cdf4f9::t_d6ed94076af037 1-15
+client/src/pages/OrderSearch.tsx
+  s_12b23801cdf4f9::t_f3039cf4482213 3-4
+  s_12b23801cdf4f9::t_6db14d0af5f03b 22
+  s_12b23801cdf4f9::t_e6123955453a4b 25-27,29-46
+  s_12b23801cdf4f9::t_839fb91835d829 47
+  s_12b23801cdf4f9::t_e7f1e1c2d4a210 24,48-61
+  s_12b23801cdf4f9::t_00071e67615933 1-2,5-21,23,28,62-68
+client/src/types/product.ts
+  s_1c6ee289313ca0::t_c62e5cfeef9ffe 1-16
+client/src/index.css
+  s_12b23801cdf4f9::t_1d202073c0a0f7 47
+  s_12b23801cdf4f9::t_3ea6b4743d1537 101-107
+  s_12b23801cdf4f9::t_a8ffe51ee61e4a 84
+client/src/components/Footer/index.tsx
+  s_12b23801cdf4f9::t_a8b60db09d067a 26
+  s_12b23801cdf4f9::t_081325cd94e0a9 27-48,50-52,54,60-68,70-86
+  s_12b23801cdf4f9::t_4003ccb33080ae 87,90-91
+  s_12b23801cdf4f9::t_226daf83242f87 23-25
+  s_12b23801cdf4f9::t_fd7a3ba86b0f90 89
+  s_12b23801cdf4f9::t_bf53fb079b1e53 1,3
+client/src/pages/OrderTracking.tsx
+  s_12b23801cdf4f9::t_dffc372d3b0785 230-231
+  s_12b23801cdf4f9::t_d127e9159f1cb1 126-128
+  s_12b23801cdf4f9::t_e4e0be83764a38 55-63,66-72
+  s_12b23801cdf4f9::t_418c6764d21dda 137-138
+  s_12b23801cdf4f9::t_5aca8986db76e6 153
+  s_12b23801cdf4f9::t_b160de9ec648c5 222-223
+  s_12b23801cdf4f9::t_fd18f9e1e26cdf 116
+  s_12b23801cdf4f9::t_9620a1854627a6 170,172-173,179
+  s_12b23801cdf4f9::t_8a1fa68d4acfa5 2,4
+  s_12b23801cdf4f9::t_37f34bbbcb46d3 75-77,79,81-89,91-95,97,99-103,108,117
+  s_12b23801cdf4f9::t_1c940e1251934b 122-124
+  s_12b23801cdf4f9::t_1b3f5c1b0baf24 202,209-218,220-221
+  s_12b23801cdf4f9::t_5ed929269297e1 206
+  s_12b23801cdf4f9::t_c72f32b52e1399 10-11,31-54,73-74,105,131,133,141,148,155-167,207
+  h_a5ee0ed7d5d05d 78,80
+  s_12b23801cdf4f9::t_c2148ffc0b1753 145
+  s_12b23801cdf4f9::t_eb286cf80a663f 5-6
+  s_12b23801cdf4f9::t_4c8142e48f2f6d 1,7-9,12-30,96,98,106-107,109-115,118-121,125,129-130,132,134-136,139-140,142-144,146-147,149-152,154,168-169,171,174-178,180-184,186-187,189-191,200-201,203-205,208,219,224-229,232-241
+  s_12b23801cdf4f9::t_5e9e932486f73a 185,188
+  s_12b23801cdf4f9::t_9c5568776dd12b 192-199
+  s_12b23801cdf4f9::t_e5b343eac41d3b 3
+  s_12b23801cdf4f9::t_cfa968f8df1adb 104
+client/src/mocks/product.ts
+  h_a5ee0ed7d5d05d 13-16
+  s_1c6ee289313ca0::t_2394dbc6b12dde 12,17
+  s_1c6ee289313ca0::t_526cc22576fea6 1-11,18-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "21c97bd425175891d0d28c34b284a7320ae6c9cf",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_12b23801cdf4f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0c116077-054b-4de5-a0a3-9930f5b76774",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    },
+    "s_1c6ee289313ca0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18303a84-6f0e-4c04-a989-fa6eaec37343",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
