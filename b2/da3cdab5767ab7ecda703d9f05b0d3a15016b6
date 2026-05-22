@@ -1,0 +1,36 @@
+client/src/pages/Home.tsx
+  s_1c6ee289313ca0::t_77859db748bbc9 1,3,6-8,10,19
+  s_1c6ee289313ca0::t_76b69d053c67be 9,11-18
+client/src/components/Header/index.tsx
+  s_1c6ee289313ca0::t_cb57dab8f8bcff 4
+  s_1c6ee289313ca0::t_ce9489fc5ee13f 45-47,52
+  s_1c6ee289313ca0::t_009116e3beb671 66
+  s_1c6ee289313ca0::t_58a29a1e30129f 39
+  s_1c6ee289313ca0::t_713a45756c60bc 43-44,48-50
+  s_1c6ee289313ca0::t_9b615c9d382e01 59
+client/src/index.css
+  s_1c6ee289313ca0::t_6b2f5c9c60bcc9 115,118,123
+  s_1c6ee289313ca0::t_bbece1069f40b4 11-13,16-17,20-21,23,25-26,28-29,32,35,37-38,40-44,46-51,53-55,59,61,63-64,66-67,70,72-73,75-76,78,80-86
+  s_1c6ee289313ca0::t_c300ed4e2feaed 18
+  s_1c6ee289313ca0::t_e5e4e925bda07a 111
+  s_1c6ee289313ca0::t_2de4358d3b6ca8 91-95
+  ai_agent 14-15,19,22,24,27,30-31,33-34,36,39,45,52,56-58,60,62,65,68-69,71,74,77,79
+client/src/components/Logo/index.tsx
+  s_1c6ee289313ca0::t_572badb8edc28c 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "b2da3cdab5767ab7ecda703d9f05b0d3a15016b6",
+  "prompts": {},
+  "sessions": {
+    "s_1c6ee289313ca0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18303a84-6f0e-4c04-a989-fa6eaec37343",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
