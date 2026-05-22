@@ -1,0 +1,29 @@
+client/src/pages/checkout/index.tsx
+  s_4318d4b2c9dec4::t_9daa2f1bf6fe4e 9,12-16
+  s_4318d4b2c9dec4::t_36a27766d00f83 32
+client/src/components/Stepper/index.tsx
+  s_4318d4b2c9dec4::t_b6440698e96ef8 1
+  s_4318d4b2c9dec4::t_c42a48597744a6 2-35,38-44,47-51
+  s_4318d4b2c9dec4::t_b94bf359b10d0c 36-37,45-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "c007edb00f9427e8fdb93667be3f05139d9f6e2d",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_4318d4b2c9dec4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "130753ba-3c1f-4630-a186-7bcbc582f3ef",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
