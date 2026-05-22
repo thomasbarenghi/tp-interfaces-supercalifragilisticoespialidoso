@@ -1,0 +1,26 @@
+client/src/components/PaymentSummary/index.tsx
+  s_4318d4b2c9dec4::t_dcecee6db98dab 1-2,13-17,19-24,35-36
+  s_4318d4b2c9dec4::t_a16952e50313dc 5,9,12,25-28,30,33-34
+  h_a5ee0ed7d5d05d 3-4,6-8,10-11,18,29,31-32,37-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "b577e1b992d72a5164f2e3f45442d97c47b77355",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_4318d4b2c9dec4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "130753ba-3c1f-4630-a186-7bcbc582f3ef",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
