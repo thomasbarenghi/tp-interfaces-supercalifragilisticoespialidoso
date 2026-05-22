@@ -1,0 +1,25 @@
+client/src/index.css
+  s_1c6ee289313ca0::t_fabdfd61d4ef2e 35-38
+  h_a5ee0ed7d5d05d 30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "59eb4b1412623f5b252ca5fd78b495bdf5f04fd6",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_1c6ee289313ca0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18303a84-6f0e-4c04-a989-fa6eaec37343",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
