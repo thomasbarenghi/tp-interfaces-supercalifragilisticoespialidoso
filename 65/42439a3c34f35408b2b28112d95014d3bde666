@@ -1,0 +1,19 @@
+client/src/layouts/AppLayout.tsx
+  s_1c6ee289313ca0::t_53f33ca02d097e 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "6542439a3c34f35408b2b28112d95014d3bde666",
+  "prompts": {},
+  "sessions": {
+    "s_1c6ee289313ca0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18303a84-6f0e-4c04-a989-fa6eaec37343",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
