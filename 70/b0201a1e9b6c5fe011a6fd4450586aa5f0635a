@@ -1,0 +1,70 @@
+client/src/pages/order-tracking/components/OrderNotFound.tsx
+  s_a29c93fdaecaf6::t_490ae4cbf0d627 2-3,8-18
+client/src/components/EmptyState/index.tsx
+  s_a29c93fdaecaf6::t_13699f085c906e 1-10,12-13,15-26
+  s_a29c93fdaecaf6::t_2561aeab32bd33 11,14
+client/src/layouts/AppLayout.tsx
+  h_a5ee0ed7d5d05d 2-3,7,9
+client/src/pages/product-detail/index.tsx
+  s_a29c93fdaecaf6::t_32bf6cd7d1c289 83-87
+  s_a29c93fdaecaf6::t_5b8ac4508e892b 9
+  s_a29c93fdaecaf6::t_a0b08f84dede4d 2,4
+  h_a5ee0ed7d5d05d 8,19-20,27-28,81,91
+  s_a29c93fdaecaf6::t_b37b66ab7d42d7 21-26,29-46,48-51
+  s_a29c93fdaecaf6::t_73af4f9c0cd7f3 52-55,57-66,68,71,73-80,89-90
+client/src/pages/order-tracking/components/DeliveryBanner.tsx
+  s_a29c93fdaecaf6::t_4ba590de0deca9 1
+  s_a29c93fdaecaf6::t_b621bcab77bbd7 10-20
+client/src/components/FeatureCard/index.tsx
+  s_a29c93fdaecaf6::t_ac0ae932975d25 1-6,8-9,12-24
+  s_a29c93fdaecaf6::t_6ba18feceb92e8 7,10-11
+client/src/pages/order-tracking/index.tsx
+  s_a29c93fdaecaf6::t_2912c37b8a9deb 11
+  h_a5ee0ed7d5d05d 12,23,32,35,60-61,72
+  s_a29c93fdaecaf6::t_bbac69f8f24540 37-38,70-71
+client/src/pages/home/index.tsx
+  h_a5ee0ed7d5d05d 3,9,15
+client/src/components/InfoCard/index.tsx
+  s_a29c93fdaecaf6::t_0673e21bca5c78 1-25
+client/src/pages/checkout/components/EmptyCart.tsx
+  s_a29c93fdaecaf6::t_c0bc694df2fe6c 9
+  s_a29c93fdaecaf6::t_c2f8c5ce9d5a68 2-3,5-8,10-15
+client/src/pages/checkout/index.tsx
+  s_a29c93fdaecaf6::t_05c3b53ab57804 10
+  s_a29c93fdaecaf6::t_1a796c5fd3f15a 34-54
+  h_a5ee0ed7d5d05d 9,22,26-27,29-30,55
+client/src/components/Main/index.tsx
+  h_a5ee0ed7d5d05d 1-9
+client/src/components/HelpCard/index.tsx
+  s_a29c93fdaecaf6::t_4364a833cb50bf 1-2,5-9
+client/src/components/TwoColumnLayout/index.tsx
+  h_a5ee0ed7d5d05d 19,23
+  s_a29c93fdaecaf6::t_60d3ac4efde134 1-15
+  s_a29c93fdaecaf6::t_3dfe99f36fe080 16-18,20-22,24-29
+client/src/pages/order-search/index.tsx
+  s_a29c93fdaecaf6::t_94ffeaa0087d10 45
+  h_a5ee0ed7d5d05d 5,19-20,26,50-51
+  s_a29c93fdaecaf6::t_e21b93132d5601 3,6
+  s_a29c93fdaecaf6::t_a87d3b74fd4516 44,46-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "70b0201a1e9b6c5fe011a6fd4450586aa5f0635a",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_a29c93fdaecaf6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "61ae31c0-bf13-4360-b027-173fc67c5f6a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
