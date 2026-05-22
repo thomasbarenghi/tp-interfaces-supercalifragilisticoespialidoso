@@ -27,11 +27,15 @@
   /*    }*/
   /*}*/
   .search-field__group {
-    @apply shadow-none bg-[#EBEBEC];
+    @apply shadow-none bg-(--default) border-0;
   }
 
   .search-field__input {
     @apply text-black;
+
+    &::placeholder {
+      @apply text-black;
+    }
   }
 
   .search-field__search-icon {
