@@ -1,0 +1,69 @@
+client/src/components/HelpCard/stories/help-card.stories.tsx
+  s_a29c93fdaecaf6::t_44a5a847e8b49e 1-12
+client/src/components/Logo/stories/logo.stories.tsx
+  s_a29c93fdaecaf6::t_bd10107d182959 1-12
+client/vitest.config.ts
+  s_a29c93fdaecaf6::t_cd85134167762d 1-29
+client/src/components/InfoCard/stories/info-card.stories.tsx
+  s_a29c93fdaecaf6::t_fd059861e3ad56 1,3-12,14-19
+  s_a29c93fdaecaf6::t_340a27735f27fc 2,13
+client/src/components/PaymentSummary/stories/payment-summary.stories.tsx
+  s_a29c93fdaecaf6::t_cb18cf8678565e 1-28
+client/src/components/TwoColumnLayout/stories/two-column-layout.stories.tsx
+  s_a29c93fdaecaf6::t_ddcee5494af965 1-54
+client/src/components/Stepper/stories/stepper.stories.tsx
+  s_a29c93fdaecaf6::t_97d536fbb271a7 1-40
+client/src/components/EmptyState/stories/empty-state.stories.tsx
+  s_a29c93fdaecaf6::t_f9a202fc846f08 1,3-30
+  h_a5ee0ed7d5d05d 2
+client/src/components/FeatureCard/stories/feature-card.stories.tsx
+  s_a29c93fdaecaf6::t_c35ff9eaaee627 2,13
+  s_a29c93fdaecaf6::t_55ba13271b4faa 1,3-12,14-19
+client/.storybook/main.ts
+  s_a29c93fdaecaf6::t_e0ab8f27394516 4
+  s_a29c93fdaecaf6::t_770362fb5a2fe0 1,5-9,12,14-22
+  s_a29c93fdaecaf6::t_ae3bc04be8076e 10
+client/src/components/ItemsCard/stories/items-card.stories.tsx
+  s_a29c93fdaecaf6::t_c2ae7be9e2fd7e 1-14,31-32
+  s_a29c93fdaecaf6::t_a48f39ba6e3abe 15-30
+client/.storybook/preview.ts
+  s_a29c93fdaecaf6::t_5d97b557a8e25b 2,6-14
+  s_a29c93fdaecaf6::t_7e63aacf75c602 3
+client/src/components/SectionCard/stories/section-card.stories.tsx
+  s_a29c93fdaecaf6::t_5f986a2488f01c 1-25
+client/src/components/Header/stories/header.stories.tsx
+  s_a29c93fdaecaf6::t_40b9f3598c7f35 1-13
+client/src/components/Footer/stories/footer.stories.tsx
+  s_a29c93fdaecaf6::t_a3e8f282242f6a 1-13
+client/package.json
+  s_a29c93fdaecaf6::t_38d3e3cdaa0f39 78
+  s_a29c93fdaecaf6::t_c88f99c9c7fd9a 41-42,44-46
+  s_a29c93fdaecaf6::t_b1a8c00bedf1ba 40,47
+  s_a29c93fdaecaf6::t_9cb4c04fa534b9 43,55
+  s_a29c93fdaecaf6::t_7913d6700125d7 50,53-54,56-57,63-64,70,74,76,80
+client/src/components/ProductItemRow/stories/product-item-row.stories.tsx
+  s_a29c93fdaecaf6::t_1bbff2e090592d 1-24
+client/eslint.config.js
+  h_a5ee0ed7d5d05d 2,45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "7f551a7599bff59140e817e3f6cba2456f5e503c",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_a29c93fdaecaf6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "61ae31c0-bf13-4360-b027-173fc67c5f6a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
