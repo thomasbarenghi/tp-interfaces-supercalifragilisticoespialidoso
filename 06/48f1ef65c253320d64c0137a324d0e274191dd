@@ -1,0 +1,49 @@
+client/src/components/HelpCard/index.tsx
+  s_7d90689b92269d::t_3803635522583f 4,13
+client/src/pages/product-detail/index.tsx
+  s_7d90689b92269d::t_c3f39ccb327fd7 114
+  s_7d90689b92269d::t_1c90f9454d0e01 34
+  s_7d90689b92269d::t_47dcdf230d9bd6 13
+client/src/hooks/useProduct.ts
+  s_7d90689b92269d::t_f587ee9b720c39 3,7
+client/src/pages/order-tracking/components/OrderNotFound.tsx
+  s_7d90689b92269d::t_cab3717ff51ccd 4,18
+client/src/pages/cart/index.tsx
+  s_7d90689b92269d::t_977c0bae5990ae 20
+  s_7d90689b92269d::t_6420f6aa9916f0 7
+client/src/pages/checkout/index.tsx
+  s_7d90689b92269d::t_d122636edf66a0 13
+  s_7d90689b92269d::t_31c7f59b6b3a2b 25
+client/src/components/Header/index.tsx
+  s_7d90689b92269d::t_4744930db73c69 5,12
+client/src/hooks/useOrder.ts
+  s_7d90689b92269d::t_c78bd16368a45d 3,8
+client/src/hooks/useProductsByIds.ts
+  s_7d90689b92269d::t_100720f38878ee 3,8
+client/src/config/routes.ts
+  s_7d90689b92269d::t_9209e50d07130c 1-13
+client/src/config/api.ts
+  s_7d90689b92269d::t_bc5bb11e027a73 1-6
+client/src/hooks/usePlaceOrder.ts
+  s_7d90689b92269d::t_4a897b58d33869 14,17
+  s_7d90689b92269d::t_ce100045683ce1 5-6
+  s_7d90689b92269d::t_8a10218ae4ba0f 185
+  s_7d90689b92269d::t_01153942348a2e 200,202
+  s_7d90689b92269d::t_7c180c670b77e1 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "0648f1ef65c253320d64c0137a324d0e274191dd",
+  "prompts": {},
+  "sessions": {
+    "s_7d90689b92269d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "06bd877f-a591-4801-aa5d-8458b78f82bd",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
