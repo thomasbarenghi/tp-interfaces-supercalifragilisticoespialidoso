@@ -1,13 +1,14 @@
+import { useState } from 'react'
+import { Navigate } from 'react-router'
 import ContactForm from './components/ContactForm.tsx'
-import EmptyCart from './components/EmptyCart.tsx'
 import ItemsCard from '../../components/ItemsCard'
 import PaymentSummary from '../../components/PaymentSummary'
 import PaymentForm from './components/PaymentForm'
 import ShippingForm from './components/ShippingForm.tsx'
 import Stepper, { type Step } from '../../components/Stepper'
-import { mockCart } from '../../mocks/cart.ts'
 import Main from '../../components/Main'
 import TwoColumnLayout from '../../components/TwoColumnLayout'
+import { usePlaceOrder } from '../../hooks/usePlaceOrder'
 
 const STEPS: Step[] = [
   { label: 'Carrito', status: 'completed' },
@@ -16,11 +17,10 @@ const STEPS: Step[] = [
 ]
 
 const Checkout = () => {
-  const cart = mockCart
-  const subtotal = cart.items.reduce((sum, item) => sum + item.price * item.quantity, 0)
+  const [cvv, setCvv] = useState('')
+  const { placeOrder, isLoading, items, subtotal, isEmpty, submitted } = usePlaceOrder(cvv)
 
-  // TODO: esto no es correcto
-  if (cart.items.length === 0) return <EmptyCart />
+  if (isEmpty && !submitted.current) return <Navigate to="/list" replace />
 
   return (
     <Main>
@@ -35,21 +35,19 @@ const Checkout = () => {
         <TwoColumnLayout.Main>
           <ContactForm />
           <ShippingForm />
-          <PaymentForm />
+          <PaymentForm cvv={cvv} onCvvChange={setCvv} />
         </TwoColumnLayout.Main>
 
         <TwoColumnLayout.Sidebar>
-          <ItemsCard
-            title="Tu pedido"
-            items={cart.items.map((item) => ({
-              id: item.id,
-              name: item.name,
-              image: item.image,
-              quantity: item.quantity,
-              price: item.price * item.quantity,
-            }))}
+          <ItemsCard title="Tu pedido" items={items} />
+          <PaymentSummary
+            subtotal={subtotal}
+            shipping={0}
+            total={subtotal}
+            showAction
+            onAction={placeOrder}
+            isLoading={isLoading}
           />
-          <PaymentSummary subtotal={subtotal} shipping={0} total={subtotal} showAction />
         </TwoColumnLayout.Sidebar>
       </TwoColumnLayout>
     </Main>

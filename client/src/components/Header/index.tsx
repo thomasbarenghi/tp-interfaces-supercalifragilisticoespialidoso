@@ -4,11 +4,11 @@ import { ShoppingCart } from '@gravity-ui/icons'
 import Logo from '../Logo'
 
 const NAV_ITEMS = [
-  { text: 'Todo', icon: false, underline: false },
-  { text: 'Remeras', icon: false, underline: false },
-  { text: 'Pantalones', icon: false, underline: false },
-  { text: 'Zapatillas', icon: false, underline: false },
-  { text: 'Seguir mi compra', icon: true, underline: true },
+  { text: 'Todo', icon: false, underline: false, href: '#' },
+  { text: 'Remeras', icon: false, underline: false, href: '#' },
+  { text: 'Pantalones', icon: false, underline: false, href: '#' },
+  { text: 'Zapatillas', icon: false, underline: false, href: '#' },
+  { text: 'Seguir mi compra', icon: true, underline: true, href: '/tracking' },
 ]
 
 const Header = () => {
@@ -27,7 +27,7 @@ const Header = () => {
                       ? 'underline decoration-(--accent) text-(--foreground)'
                       : 'no-underline',
                   )}
-                  href="#"
+                  href={item.href}
                 >
                   {item.text}
                   {item.icon && <Link.Icon className="text-(--accent)" />}

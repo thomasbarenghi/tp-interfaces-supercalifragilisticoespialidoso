@@ -5,10 +5,11 @@ interface InfoCardProps {
   icon: React.ReactNode
   title: string
   description: string
+  onClick?: () => void
 }
 
-const InfoCard = ({ icon, title, description }: InfoCardProps) => (
-  <Card className="px-5 py-4.5">
+const InfoCard = ({ icon, title, description, onClick }: InfoCardProps) => (
+  <Card className={`px-5 py-4.5 ${onClick ? 'cursor-pointer' : ''}`} onClick={onClick}>
     <Card.Content className="flex-row items-center gap-3.5">
       <div className="bg-(--accent)/10 rounded-[20px] size-10 flex items-center justify-center shrink-0">
         {icon}

@@ -1,7 +1,12 @@
 import { Input, Label, TextField } from '@heroui/react'
 import SectionCard from '../../../components/SectionCard'
 
-const PaymentForm = () => {
+interface Props {
+  cvv: string
+  onCvvChange: (value: string) => void
+}
+
+const PaymentForm = ({ cvv, onCvvChange }: Props) => {
   return (
     <SectionCard n="3" title="Método de pago">
       <div className="flex flex-col gap-3.5">
@@ -16,7 +21,12 @@ const PaymentForm = () => {
           </TextField>
           <TextField name="cvv" fullWidth>
             <Label>CVV</Label>
-            <Input placeholder="123" />
+            <Input
+              placeholder="123"
+              value={cvv}
+              onChange={(e) => onCvvChange(e.target.value)}
+              maxLength={3}
+            />
           </TextField>
         </div>
         <TextField name="cardHolder" fullWidth>

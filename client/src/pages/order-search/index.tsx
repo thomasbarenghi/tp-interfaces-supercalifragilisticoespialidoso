@@ -12,7 +12,7 @@ const OrderSearch = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const trimmed = orderNumber.trim()
-    if (trimmed) navigate(`/order/${trimmed}`)
+    if (trimmed) navigate(`/tracking/${trimmed}`)
   }
 
   return (

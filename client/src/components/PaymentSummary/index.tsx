@@ -7,9 +7,11 @@ interface Props {
   shipping: number
   total: number
   showAction?: boolean
+  onAction?: () => void
+  isLoading?: boolean
 }
 
-const PaymentSummary = ({ subtotal, shipping, total, showAction }: Props) => (
+const PaymentSummary = ({ subtotal, shipping, total, showAction, onAction, isLoading }: Props) => (
   <SectionCard title="Resumen del pago">
     <div className="flex flex-col gap-3">
       <div className="flex justify-between text-sm">
@@ -28,7 +30,14 @@ const PaymentSummary = ({ subtotal, shipping, total, showAction }: Props) => (
         <span className="font-bold text-2xl">{formatPrice(total)}</span>
       </div>
       {showAction && (
-        <Button variant="primary" fullWidth className="rounded-full mt-2" size="lg">
+        <Button
+          variant="primary"
+          fullWidth
+          className="rounded-full mt-2"
+          size="lg"
+          onPress={onAction}
+          isPending={isLoading}
+        >
           Pagar ahora
         </Button>
       )}
