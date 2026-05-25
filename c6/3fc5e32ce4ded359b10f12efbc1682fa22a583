@@ -1,0 +1,20 @@
+client/src/components/InfoCard/index.tsx
+  s_a192323b63db73::t_e8488b85eaeda2 3
+  s_a192323b63db73::t_a4da5ca910ac4b 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "c63fc5e32ce4ded359b10f12efbc1682fa22a583",
+  "prompts": {},
+  "sessions": {
+    "s_a192323b63db73": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b1481111-7281-4fc3-abb4-3195559b3184",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
