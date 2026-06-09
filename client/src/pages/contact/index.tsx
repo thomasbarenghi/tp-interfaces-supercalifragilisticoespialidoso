@@ -2,8 +2,10 @@ import Main from '../../components/Main'
 import TwoColumnLayout from '../../components/TwoColumnLayout'
 import ContactForm from './components/ContactForm'
 import { Card } from '@heroui/react'
+import { usePageTitle } from '../../hooks/usePageTitle.ts'
 
 const Contact = () => {
+  usePageTitle('Contacto')
   return (
     <Main>
       <section className=" flex gap-12 flex-col">

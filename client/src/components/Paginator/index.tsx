@@ -23,7 +23,7 @@ const Paginator = ({ page, totalPages, totalItems, itemsPerPage, onPageChange }:
         <Pagination.Item>
           <Pagination.Previous isDisabled={page === 1} onPress={() => onPageChange(page - 1)}>
             <Pagination.PreviousIcon />
-            <span>Previous</span>
+            <span>Anterior</span>
           </Pagination.Previous>
         </Pagination.Item>
 
@@ -42,7 +42,7 @@ const Paginator = ({ page, totalPages, totalItems, itemsPerPage, onPageChange }:
 
         <Pagination.Item>
           <Pagination.Next isDisabled={page === totalPages} onPress={() => onPageChange(page + 1)}>
-            <span>Next</span>
+            <span>Siguiente</span>
             <Pagination.NextIcon />
           </Pagination.Next>
         </Pagination.Item>

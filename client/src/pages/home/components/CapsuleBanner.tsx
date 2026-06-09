@@ -7,15 +7,15 @@ interface Props {
 
 const Root = ({ children }: Props) => {
   return (
-    <Surface variant="secondary" className="overflow-hidden rounded-[2rem] bg-transparent">
-      <div className="grid min-h-[320px] lg:grid-cols-2">{children}</div>
+    <Surface variant="secondary" className=" bg-transparent py-14 ">
+      <div className="grid lg:grid-cols-2 min-h-105 rounded-2xl overflow-hidden">{children}</div>
     </Surface>
   )
 }
 
 const Content = ({ children }: Props) => {
   return (
-    <div className="flex flex-col justify-center px-8 py-10 lg:px-12 bg-gray-100 dark:bg-surface">
+    <div className="flex flex-col justify-center px-8 py-10 lg:px-12 bg-gray-100 dark:bg-surface order-2 lg:order-1">
       {children}
     </div>
   )
@@ -45,9 +45,8 @@ const Action = ({ children }: Props) => {
 
 const Visual = ({ children }: Props) => {
   return (
-    <div className="relative flex items-center justify-center overflow-hidden bg-zinc-900 dark:bg-[color-mix(in_oklab,var(--accent)_15%,transparent)]">
-      <div className="" />
-
+    <div className="relative flex items-start lg:items-end justify-start overflow-hidden bg-zinc-900 dark:bg-[color-mix(in_oklab,var(--accent)_15%,transparent)] min-h-48 lg:min-h-0 order-1 lg:order-2">
+      <div className="absolute inset-0 bg-radial-[ellipse_at_bottom_right] from-accent/30 to-transparent pointer-events-none" />
       {children}
     </div>
   )
@@ -55,7 +54,7 @@ const Visual = ({ children }: Props) => {
 
 const Number = ({ children }: Props) => {
   return (
-    <span className="relative text-[9rem] font-black leading-none tracking-[-0.08em] text-white dark:text-accent lg:text-[14rem]">
+    <span className="relative text-[9rem] py-4 px-8 font-black leading-none tracking-[-0.08em] text-white dark:text-accent lg:text-[14rem]">
       {children}
     </span>
   )

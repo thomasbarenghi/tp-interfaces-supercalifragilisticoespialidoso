@@ -1,6 +1,6 @@
-import type { Product } from '../../../types/product'
+import type { Product } from '../../types/product'
 import { Chip, Link } from '@heroui/react'
-import { ROUTES } from '../../../config/routes'
+import { ROUTES } from '../../config/routes'
 
 const ProductCard = ({ product }: { product: Product }) => {
   const formattedPrice = new Intl.NumberFormat('es-AR', {
@@ -27,7 +27,7 @@ const ProductCard = ({ product }: { product: Product }) => {
           )}
           <img
             alt={product.name}
-            className="h-full w-full object-cover aspect-3/4"
+            className="h-full w-full object-cover rounded-2xl aspect-3/4 dark:brightness-90"
             loading="lazy"
             src={product.images[0]}
           />

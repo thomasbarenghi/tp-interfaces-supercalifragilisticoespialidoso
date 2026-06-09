@@ -1,7 +1,17 @@
-const Main = ({ children }: { children: React.ReactNode }) => {
+import clsx from 'clsx'
+
+type MainProps = {
+  children: React.ReactNode
+  className?: string
+  contentClassName?: string
+}
+
+const Main = ({ children, className, contentClassName }: MainProps) => {
   return (
-    <main className="bg-background">
-      <div className="container max-w-6xl px-4 sm:px-6 lg:px-10 py-10 lg:py-15">{children}</div>
+    <main className={clsx('bg-background', className)}>
+      <div className={clsx('container px-4 py-10 sm:px-6 lg:px-10 lg:py-15', contentClassName)}>
+        {children}
+      </div>
     </main>
   )
 }

@@ -1,7 +1,7 @@
 import useSWR from 'swr'
 import { useSearchParams } from 'react-router'
 import { API } from '../config/api'
-import { fetcher } from '../lib/fetcher'
+import { paginatedFetcher } from '../lib/fetcher'
 import type { Product } from '../types/product'
 
 export const PRODUCTS_PER_PAGE = 10
@@ -21,6 +21,7 @@ export const useProducts = ({ limit }: UseProductsOptions = {}) => {
   const category = searchParams.get('category')
   const search = searchParams.get('search')
   const sort = searchParams.get('sort')
+  const badge = searchParams.get('badge')
 
   const page = Number(searchParams.get('page') ?? '1')
 
@@ -28,6 +29,10 @@ export const useProducts = ({ limit }: UseProductsOptions = {}) => {
 
   if (category) {
     params.set('category', category)
+  }
+
+  if (badge) {
+    params.set('badge', badge)
   }
 
   if (search) {
@@ -50,7 +55,7 @@ export const useProducts = ({ limit }: UseProductsOptions = {}) => {
 
   const endpoint = `${API.PRODUCTS}?${params}`
 
-  const { data, error, isLoading } = useSWR<ProductsResponse>(endpoint, fetcher)
+  const { data, error, isLoading } = useSWR<ProductsResponse>(endpoint, paginatedFetcher)
 
   const setPage = (page: number) => {
     const params = new URLSearchParams(searchParams)
@@ -75,6 +80,7 @@ export const useProducts = ({ limit }: UseProductsOptions = {}) => {
       category,
       search,
       sort,
+      badge,
     },
   }
 }
