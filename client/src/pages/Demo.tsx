@@ -14,7 +14,7 @@ import {
   Switch,
   Tabs,
 } from '@heroui/react'
-import { useDarkMode } from '../../hooks/useDarkMode.ts'
+import { useDarkMode } from '../hooks/useDarkMode'
 
 interface User {
   id: number
