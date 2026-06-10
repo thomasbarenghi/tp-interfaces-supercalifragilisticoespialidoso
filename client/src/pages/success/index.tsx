@@ -32,7 +32,7 @@ const Success = () => {
 
         <OrderResult.Card>
           <OrderResult.Icon>
-            <div className="p-6 rounded-full bg-[#DCF2E2]">
+            <div className="p-6 rounded-full bg-[#DCF2E2] dark:bg-green-900/40">
               <div className="flex justify-center items-center p-2 rounded-full bg-[#16A34A]">
                 <Check width={64} height={64} className="text-white" />
               </div>
