@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 
 interface ShowcaseSectionProps {
   children: ReactNode
+  id?: string
 }
 
 interface ShowcaseSectionTitleProps {
@@ -9,8 +10,12 @@ interface ShowcaseSectionTitleProps {
   title: string
 }
 
-const Root = ({ children }: ShowcaseSectionProps) => {
-  return <section className="flex-col flex py-14 gap-8">{children}</section>
+const Root = ({ children, id }: ShowcaseSectionProps) => {
+  return (
+    <section id={id} className="flex-col flex py-14 gap-8">
+      {children}
+    </section>
+  )
 }
 
 const Header = ({ children }: ShowcaseSectionProps) => {

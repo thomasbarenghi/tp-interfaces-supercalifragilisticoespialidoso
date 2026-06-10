@@ -7,7 +7,10 @@ import CollectionBanner from '../../components/CollectionBanner'
 import { formatPrice } from '../../utils/format.ts'
 import Main from '../../components/Main'
 import TwoColumnLayout from '../../components/TwoColumnLayout'
-import { useProduct } from '../../hooks/useProduct'
+import useSWR from 'swr'
+import { fetcher } from '../../lib/fetcher'
+import { API } from '../../config/api'
+import type { Product } from '../../types/product'
 import { usePageTitle } from '../../hooks/usePageTitle'
 import { useCart } from '../../hooks/useCart'
 import EmptyState from '../../components/EmptyState'
@@ -19,7 +22,7 @@ const formatSales = (count: number) =>
 const ProductDetail = () => {
   const navigate = useNavigate()
   const { slug } = useParams<{ slug: string }>()
-  const { data: product, isLoading } = useProduct(slug ?? '')
+  const { data: product, isLoading } = useSWR<Product>(slug ? API.PRODUCT(slug) : null, fetcher)
   usePageTitle(product?.name)
   const { addItem } = useCart()
   const [selectedImage, setSelectedImage] = useState(0)
