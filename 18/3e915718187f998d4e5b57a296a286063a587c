@@ -1,0 +1,19 @@
+vercel.json
+  s_4cf4a3ed6442e7::t_dfa8d823e83f03 2-3,7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "183e915718187f998d4e5b57a296a286063a587c",
+  "prompts": {},
+  "sessions": {
+    "s_4cf4a3ed6442e7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "230f0f45-9e98-4dbb-84d1-f3ceed358a6a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
