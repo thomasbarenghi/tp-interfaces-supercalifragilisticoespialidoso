@@ -76,6 +76,6 @@ npm run dev        # corre en http://localhost:5173
 | Nombre                | GitHub                                               |
 |-----------------------|------------------------------------------------------|
 | Thomas Barenghi       | [@thomasbarenghi](https://github.com/thomasbarenghi) |
-| <!-- integrante 2 --> |                                                      |
+| Mateo Sanchez Sa      | [@Mateo1223](https://github.com/Mateo1223)           |
 | <!-- integrante 3 --> |                                                      |
 | <!-- integrante 4 --> |                                                      |
