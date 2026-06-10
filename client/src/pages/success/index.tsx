@@ -1,8 +1,8 @@
 import Main from '../../components/Main'
-import {OrderResult} from '../../components/OrderResult'
+import OrderResult from '../../components/OrderResult'
 import { usePageTitle } from '../../hooks/usePageTitle'
 import Stepper, { type Step } from '../../components/Stepper'
-import { useSearchParams, useNavigate } from 'react-router'
+import { useNavigate, useSearchParams } from 'react-router'
 import { useOrder } from '../../hooks/useOrder'
 import { Button, Surface } from '@heroui/react'
 import { ROUTES } from '../../config/routes'
@@ -15,83 +15,68 @@ const STEPS: Step[] = [
 ]
 
 const Success = () => {
+  usePageTitle('Felicitaciones')
 
-            
-    const [orderURL] = useSearchParams()
-    const navigate = useNavigate()
+  const [orderURL] = useSearchParams()
+  const navigate = useNavigate()
 
-    const orderID = orderURL.get('order.id') // Trae el id del pedido desde la URL
-    const {order} = useOrder(orderID || '') // Trae los datos del pedido usando el id
-    console.log(order)
-    
-    
-    
-//pedido va MUTED
-//Seguir mi compra -> tracking/:id
-//Ver mas productos -> list
-//#DCF2E2
-    usePageTitle('Felicitaciones')
-    return (
-        <Main contentClassName="flex flex-col items-center gap-8">
-        <OrderResult>
-  <OrderResult.Stepper>
-    <Stepper steps={STEPS} />
-  </OrderResult.Stepper>
+  const orderID = orderURL.get('order.id')
+  const { order } = useOrder(orderID || '')
 
-  <OrderResult.Icon>
-    <div className="p-6 rounded-full bg-[#DCF2E2]">
-      <div className="flex justify-center items-center p-2 rounded-full bg-[#16A34A]">
-        <Check width={64} height={64} className="text-white" />
-      </div>
-    </div>
-  </OrderResult.Icon>
+  return (
+    <Main>
+      <OrderResult>
+        <OrderResult.Stepper>
+          <Stepper steps={STEPS} />
+        </OrderResult.Stepper>
 
-  <OrderResult.Title>
-    ¡Gracias por tu compra, {order?.shippingAddress.firstName}!
-  </OrderResult.Title>
+        <OrderResult.Card>
+          <OrderResult.Icon>
+            <div className="p-6 rounded-full bg-[#DCF2E2]">
+              <div className="flex justify-center items-center p-2 rounded-full bg-[#16A34A]">
+                <Check width={64} height={64} className="text-white" />
+              </div>
+            </div>
+          </OrderResult.Icon>
 
-  <OrderResult.Description>
-    Tu pedido fue confirmado y ya lo estamos preparando.
-  </OrderResult.Description>
+          <OrderResult.Title>
+            ¡Gracias por tu compra, {order?.shippingAddress.firstName}!
+          </OrderResult.Title>
 
-  <OrderResult.Metadata>
-    <Surface
-      className="p-2.5 px-4 rounded-full leading-3"
-      variant="secondary"
-    >
-      <span className="text-xs text-muted">Pedido: </span>
-      <span className="text-xs font-bold">
-        #{order?.orderNumber}
-      </span>
-    </Surface>
-  </OrderResult.Metadata>
+          <OrderResult.Description>
+            Tu pedido fue confirmado y ya lo estamos preparando.
+          </OrderResult.Description>
 
-  <OrderResult.Actions>
-    <Button
-      variant="outline"
-      fullWidth
-      className="rounded-full"
-      onClick={() =>
-        navigate(
-          `${ROUTES.TRACKING}/${order?.orderNumber}`,
-        )
-      }
-    >
-      Seguir mi compra
-    </Button>
+          <OrderResult.Metadata>
+            <Surface className="p-2.5 px-4 rounded-full leading-3" variant="secondary">
+              <span className="text-xs text-muted">Pedido: </span>
+              <span className="text-xs font-bold">#{order?.orderNumber}</span>
+            </Surface>
+          </OrderResult.Metadata>
 
-    <Button
-      variant="primary"
-      fullWidth
-      className="rounded-full"
-      onClick={() => navigate(ROUTES.LIST)}
-    >
-      Ver más productos
-    </Button>
-  </OrderResult.Actions>
-</OrderResult>
-        </Main>
-    )
+          <OrderResult.Actions>
+            <Button
+              variant="outline"
+              fullWidth
+              className="rounded-full"
+              onClick={() => navigate(`${ROUTES.TRACKING}/${order?.orderNumber}`)}
+            >
+              Seguir mi compra
+            </Button>
+
+            <Button
+              variant="primary"
+              fullWidth
+              className="rounded-full"
+              onClick={() => navigate(ROUTES.LIST)}
+            >
+              Ver más productos
+            </Button>
+          </OrderResult.Actions>
+        </OrderResult.Card>
+      </OrderResult>
+    </Main>
+  )
 }
 
 export default Success

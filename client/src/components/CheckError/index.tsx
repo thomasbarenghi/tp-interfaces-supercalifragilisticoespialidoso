@@ -1,1 +1,0 @@
-import { Check } from '@gravity-ui/icons'
