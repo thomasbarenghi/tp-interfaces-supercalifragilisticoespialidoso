@@ -1,0 +1,16 @@
+client/src/assets/vite.svg
+  h_a5ee0ed7d5d05d 1-167
+client/src/assets/react.svg
+  h_a5ee0ed7d5d05d 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "47f5350ba58e1092923c9b5d05138f26598f419a",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
