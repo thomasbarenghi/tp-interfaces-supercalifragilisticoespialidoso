@@ -1,0 +1,16 @@
+client/src/index.css
+  h_a5ee0ed7d5d05d 11-16
+client/src/layouts/AppLayout.tsx
+  h_a5ee0ed7d5d05d 6,10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "b0a59560eab343945132929f786e94a871feb75d",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
