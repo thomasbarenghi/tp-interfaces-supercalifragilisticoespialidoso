@@ -1,0 +1,19 @@
+client/src/pages/success/index.tsx
+  s_254ce4317e1e70::t_22fbb371a1a317 35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "e999c0cb86c0eaea56fd6985e86d2b40bc6fa652",
+  "prompts": {},
+  "sessions": {
+    "s_254ce4317e1e70": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2be6eb8a-410d-4705-9216-356b5e2c09fb",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
