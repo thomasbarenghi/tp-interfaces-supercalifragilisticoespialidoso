@@ -1,0 +1,35 @@
+client/src/components/OrderResult/index.tsx
+  s_254ce4317e1e70::t_660ecadc2c39af 9
+  s_254ce4317e1e70::t_cfdbfba0f292eb 18
+  s_254ce4317e1e70::t_7a2e1e55a8e14e 24
+  s_254ce4317e1e70::t_6327ae61c75282 31-32
+  s_254ce4317e1e70::t_3860d08f1a2407 34
+  s_254ce4317e1e70::t_040ae184fb944c 37
+  s_254ce4317e1e70::t_864af17a79be7b 46-47
+client/src/pages/success/index.tsx
+  s_254ce4317e1e70::t_580d715a6562ca 28-31,33-40,42-44,46-48,50-55,57-65,67-77
+  s_254ce4317e1e70::t_6b1e6b50e6f777 27
+  h_a5ee0ed7d5d05d 5,18,66
+  s_254ce4317e1e70::t_5c027b9e9eba4f 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "c3c60c59611482ddd9b3d0f2a45c65aa47f1714d",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_254ce4317e1e70": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2be6eb8a-410d-4705-9216-356b5e2c09fb",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
