@@ -75,6 +75,7 @@ const Checkout = () => {
     placeOrder({
       email: get('email'),
       phone: get('phone'),
+      notes: get('notes') || undefined,
       firstName: get('firstName'),
       lastName: get('lastName'),
       address: get('address'),

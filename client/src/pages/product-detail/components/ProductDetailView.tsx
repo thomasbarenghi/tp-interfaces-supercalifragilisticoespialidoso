@@ -92,15 +92,22 @@ const ProductDetailView = ({ product }: Props) => {
 
           <TwoColumnLayout.Sidebar>
             <div className="flex flex-col gap-7.5 lg:py-10">
-              <div className="flex flex-col gap-4">
-                {product.badge && (
-                  <Chip color="accent" variant="primary" className="uppercase font-bold self-start">
-                    {product.badge}
-                  </Chip>
-                )}
+              <div className="flex flex-col gap-3">
+                <div className="flex items-center gap-2.5">
+                  {product.badge && (
+                    <Chip color="accent" variant="primary" className="uppercase font-bold">
+                      {product.badge}
+                    </Chip>
+                  )}
+                  <p className="text-muted uppercase font-bold text-xs tracking-wide">
+                    {product.category}
+                  </p>
+                </div>
+
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-medium leading-[1.3]">
                   {product.name}
                 </h1>
+
                 <div className="flex items-center gap-2">
                   <span className="text-amber-400 font-bold text-sm">★★★★★</span>
                   <span className="font-bold text-sm">{product.rating.average}</span>
@@ -111,11 +118,24 @@ const ProductDetailView = ({ product }: Props) => {
                   <span className="size-0.75 rounded-full bg-muted shrink-0" />
                   <span className="text-muted text-sm">{product.totalStock} en stock</span>
                 </div>
-                <p className="text-base leading-[1.8]">{product.description}</p>
+
+                <p className="text-base leading-relaxed">{product.description}</p>
+              </div>
+
+              <div>
+                {product.features?.length > 0 && (
+                  <ul className="flex flex-col gap-1.5">
+                    {product.features.map((feature) => (
+                      <li key={feature} className="flex items-center gap-2.5 text-base">
+                        <span className="size-1 rounded-full bg-muted shrink-0" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
 
               <p className="text-xl lg:text-2xl font-bold">{formatPrice(product.price)}</p>
-
               <Button
                 variant={added ? 'outline' : 'primary'}
                 fullWidth
@@ -126,7 +146,6 @@ const ProductDetailView = ({ product }: Props) => {
                 <ShoppingCart width={16} height={16} />
                 {addToCartLabel(outOfStock, added)}
               </Button>
-
               <InfoCard
                 icon={<ArrowRotateLeft width={18} height={18} className="text-(--accent)" />}
                 title="Cambios gratis 30 días"

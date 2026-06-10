@@ -1,4 +1,4 @@
-import { FieldError, Input, Label, TextField } from '@heroui/react'
+import { FieldError, Input, Label, TextArea, TextField } from '@heroui/react'
 import SectionCard from '../../../components/SectionCard'
 import type { CheckoutFormData } from '../../../hooks/usePlaceOrder'
 
@@ -29,6 +29,14 @@ const ContactForm = ({ defaultValues }: Props) => (
         <FieldError />
       </TextField>
     </div>
+    <TextField name="notes" fullWidth defaultValue={defaultValues?.notes}>
+      <Label>Aclaraciones (opcional)</Label>
+      <TextArea
+        placeholder="Indicaciones especiales para tu pedido..."
+        className="resize-none"
+        rows={3}
+      />
+    </TextField>
   </SectionCard>
 )
 
