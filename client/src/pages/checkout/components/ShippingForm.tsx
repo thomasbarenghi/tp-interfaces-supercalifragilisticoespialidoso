@@ -1,4 +1,4 @@
-import { FieldError, Input, Label, TextField } from '@heroui/react'
+import { FieldError, Input, Label, ListBox, Select, TextField } from '@heroui/react'
 import SectionCard from '../../../components/SectionCard'
 import type { CheckoutFormData } from '../../../hooks/usePlaceOrder'
 
@@ -48,6 +48,29 @@ const ShippingForm = ({ defaultValues }: Props) => (
         <FieldError />
       </TextField>
     </div>
+    <Select
+      name="shippingMethod"
+      isRequired
+      fullWidth
+      defaultSelectedKey={defaultValues?.shippingMethod}
+    >
+      <Label>Método de entrega</Label>
+      <Select.Trigger>
+        <Select.Value placeholder="Seleccioná el método" />
+        <Select.Indicator />
+      </Select.Trigger>
+      <Select.Popover>
+        <ListBox>
+          <ListBox.Item id="home_delivery" textValue="Envío a domicilio">
+            Envío a domicilio
+          </ListBox.Item>
+          <ListBox.Item id="store_pickup" textValue="Retiro en local">
+            Retiro en local
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+      <FieldError />
+    </Select>
   </SectionCard>
 )
 

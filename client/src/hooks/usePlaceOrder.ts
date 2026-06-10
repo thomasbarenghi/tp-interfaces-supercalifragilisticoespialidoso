@@ -43,6 +43,7 @@ export interface CheckoutFormData {
   city: string
   province: string
   postalCode: string
+  shippingMethod: string
   cardNumber: string
   expiry: string
   cvv: string

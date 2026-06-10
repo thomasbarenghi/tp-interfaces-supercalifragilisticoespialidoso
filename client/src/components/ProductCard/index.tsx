@@ -3,6 +3,8 @@ import { Chip, Link } from '@heroui/react'
 import { ROUTES } from '../../config/routes'
 
 const ProductCard = ({ product }: { product: Product }) => {
+  const outOfStock = product.totalStock === 0
+
   const formattedPrice = new Intl.NumberFormat('es-AR', {
     style: 'currency',
     currency: 'ARS',
@@ -16,25 +18,35 @@ const ProductCard = ({ product }: { product: Product }) => {
     <Link href={ROUTES.PRODUCT(product.slug)} className="no-underline">
       <div className="flex flex-col gap-2">
         <div className="relative">
-          {product.badge && (
+          {outOfStock ? (
             <Chip
-              color="accent"
+              color="default"
               variant="primary"
-              className="uppercase font-bold absolute top-3 left-3"
+              className="uppercase font-bold absolute top-3 left-3 z-10"
             >
-              {product.badge}
+              Sin stock
             </Chip>
+          ) : (
+            product.badge && (
+              <Chip
+                color="accent"
+                variant="primary"
+                className="uppercase font-bold absolute top-3 left-3"
+              >
+                {product.badge}
+              </Chip>
+            )
           )}
           <img
             alt={product.name}
-            className="h-full w-full object-cover rounded-2xl aspect-3/4 dark:brightness-90"
+            className={`h-full w-full object-cover rounded-2xl aspect-3/4 dark:brightness-90 transition-opacity ${outOfStock ? 'opacity-40' : ''}`}
             loading="lazy"
             src={product.images[0]}
           />
         </div>
         <div className="py-3 gap-1">
           <p className="text-muted uppercase font-bold">{product.category}</p>
-          <p className="font-medium">{product.name}</p>
+          <p className={`font-medium ${outOfStock ? 'text-muted' : ''}`}>{product.name}</p>
           <p className="font-bold">{formattedPrice}</p>
         </div>
       </div>
