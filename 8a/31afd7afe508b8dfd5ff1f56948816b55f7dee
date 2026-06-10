@@ -1,0 +1,46 @@
+client/src/hooks/usePlaceOrder.ts
+  s_ec189ab7b67b1e::t_dde009cdb48f44 46
+client/src/pages/checkout/index.tsx
+  s_ec189ab7b67b1e::t_9c9e725e546a6f 84
+  s_ec189ab7b67b1e::t_022753f3a30a93 31
+client/src/pages/product-detail/index.tsx
+  s_ec189ab7b67b1e::t_4cfc3377161719 2,10-11,19-20,31
+client/src/pages/checkout/components/ShippingForm.tsx
+  s_ec189ab7b67b1e::t_9c7269e8b4f387 1
+  s_ec189ab7b67b1e::t_0049e853860cf6 51-73
+client/src/components/ShowcaseSection/index.tsx
+  s_ec189ab7b67b1e::t_b50acc023f9582 22,30
+  s_ec189ab7b67b1e::t_9dec54208d6389 36
+client/src/pages/home/components/HomeHero.tsx
+  s_ec189ab7b67b1e::t_9ad566efc85b9e 31,38,42,47
+  s_ec189ab7b67b1e::t_69a714fe6e3404 64,67
+  s_ec189ab7b67b1e::t_97adc8ef3d5613 11-12
+  s_ec189ab7b67b1e::t_7561439075135c 97
+client/src/pages/product-detail/components/ProductDetailView.tsx
+  s_ec189ab7b67b1e::t_dd10e4408bb1ac 1-144
+client/src/pages/product-detail/components/ProductDetailSkeleton.tsx
+  s_ec189ab7b67b1e::t_7d4b3681981ca3 1-53
+client/src/components/ProductCard/index.tsx
+  s_ec189ab7b67b1e::t_668b1b4880b359 6-7,21,23,25,27,29-38,42,49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "8a31afd7afe508b8dfd5ff1f56948816b55f7dee",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_ec189ab7b67b1e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be4c34ca-2d16-44d7-81ff-cbc00f7b17d1",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
