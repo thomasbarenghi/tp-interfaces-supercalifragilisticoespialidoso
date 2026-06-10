@@ -1,0 +1,61 @@
+client/src/components/Footer/index.tsx
+  s_8d797fcd073713::t_878ce1a1bfec73 43-52
+client/src/hooks/useEnrichedCart.ts
+  s_8d797fcd073713::t_cc0aeac46f0b16 1,3-5,10-13
+client/src/pages/contact/components/ContactForm.tsx
+  s_8d797fcd073713::t_0fdff64dd8922e 34-43
+client/src/pages/cart/index.tsx
+  s_8d797fcd073713::t_c8e94373c14d6e 10
+client/src/components/CartItemCard/stories/cart-item-card.stories.tsx
+  h_a5ee0ed7d5d05d 61
+  s_8d797fcd073713::t_ce290faa7146c5 1-60,62-64
+client/src/pages/checkout/index.tsx
+  h_a5ee0ed7d5d05d 1
+  s_8d797fcd073713::t_4d09e70cf35881 99
+  s_8d797fcd073713::t_3dd62b352b5258 22-36,40-66,102-104
+client/src/pages/home/index.tsx
+  s_8d797fcd073713::t_6fb8b841d41b33 111
+  s_8d797fcd073713::t_7878b46c3df31d 70
+  s_8d797fcd073713::t_f9b18e52c1844e 36-38,40-46
+  s_8d797fcd073713::t_1a4113be1a07e8 63-68,71-74,76-82
+client/src/pages/checkout/components/ContactForm.tsx
+  s_8d797fcd073713::t_073b9e290cc55b 3,5-9,17,26
+client/src/pages/checkout/components/ShippingForm.tsx
+  s_8d797fcd073713::t_1023ad9ae6646e 3,5-9,12,17,23,29,34,43
+client/src/components/ShowcaseSection/index.tsx
+  h_a5ee0ed7d5d05d 14,18
+  s_8d797fcd073713::t_cae300c047376f 13,15-17
+  s_8d797fcd073713::t_8fe84b89cc984f 5
+client/src/pages/contact/index.tsx
+  s_8d797fcd073713::t_1d9e4fc64682c0 4,9-14
+  s_8d797fcd073713::t_1642cdb31bf1e1 51
+  s_8d797fcd073713::t_d9b2baa616e6ad 23
+client/src/pages/checkout/components/PaymentForm.tsx
+  s_8d797fcd073713::t_0cb58ec0fdbc8f 3,5-9,16,30,41,49
+client/src/components/CartItemCard/index.tsx
+  s_8d797fcd073713::t_c11732b396df2b 1-107
+client/src/pages/product-detail/index.tsx
+  s_8d797fcd073713::t_26ccd6dfbe5c12 10-13
+  s_8d797fcd073713::t_36c425f7092544 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "c8f6f17f7243ba5d246a1f857cea23b236d4ffbc",
+  "prompts": {},
+  "humans": {
+    "h_a5ee0ed7d5d05d": {
+      "author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_8d797fcd073713": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9a7e1629-37b3-41b8-9236-8ff92e4248e4",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
