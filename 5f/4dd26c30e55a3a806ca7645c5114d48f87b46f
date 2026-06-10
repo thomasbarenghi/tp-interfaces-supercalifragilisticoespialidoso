@@ -1,0 +1,26 @@
+server/data/products.json
+  s_254ce4317e1e70::t_47b318ca126b31 381-405
+client/src/components/ProductCard/index.tsx
+  s_254ce4317e1e70::t_8f535492ac8778 64,67-69,72
+  s_254ce4317e1e70::t_12c9539a02af6a 94
+client/src/pages/product-detail/components/ProductDetailView.tsx
+  s_254ce4317e1e70::t_f121ef67a0392c 147,150
+  s_254ce4317e1e70::t_26d2cda5367a7f 29,34-35,38
+  s_254ce4317e1e70::t_c8525b8760dbf6 17-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "5f4dd26c30e55a3a806ca7645c5114d48f87b46f",
+  "prompts": {},
+  "sessions": {
+    "s_254ce4317e1e70": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2be6eb8a-410d-4705-9216-356b5e2c09fb",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "thomasbarenghi <thomasbarenghi@gmail.com>"
+    }
+  }
+}
